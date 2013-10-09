@@ -1,0 +1,6 @@
+class Movie < ActiveRecord::Base
+	
+	attr_accessor :all_ratings
+  atrr_accessible :all_ratings
+		
+end

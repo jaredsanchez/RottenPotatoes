@@ -8,6 +8,8 @@ class MoviesController < ApplicationController
 
   def index
     @movies = Movie.all
+		
+		
 		@all_ratings = Movie.all_ratings
 		@filtered_ratings = Hash.new
 		@all_ratings.each do |rating|
